@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
 
   <name>VanishNoPacket</name>
-  <version>3.20</version>
+  <version>4.20</version>
 
   <url>http://github.com/mbax/VanishNoPacket</url>
 
@@ -61,8 +61,8 @@
 
   <repositories>
     <repository>
-      <id>spigot-repo</id>
-      <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+      <id>destroystokyo-repo</id>
+      <url>https://repo.destroystokyo.com/content/groups/public/</url>
     </repository>
     <repository>
       <id>kitteh-repo</id>
@@ -76,10 +76,11 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.spigotmc</groupId>
-      <artifactId>spigot-api</artifactId>
-      <version>1.9-R0.1-SNAPSHOT</version>
-      <optional>true</optional>
+         <groupId>com.destroystokyo.paper</groupId>
+         <artifactId>paper-api</artifactId>
+         <version>1.9-R0.1-SNAPSHOT</version>
+         <type>jar</type>
+         <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.comphenix.protocol</groupId>
